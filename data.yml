@@ -1,3 +1,7 @@
+options:
+  - buyPrice
+  - sellPrice
+  - highestPrice
 stocks:
   - 3873/microsoft-corp
   - 3323/apple-inc
