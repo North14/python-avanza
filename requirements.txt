@@ -1,3 +1,4 @@
+pyyaml
 tabulate
 requests
 beautifulsoup4

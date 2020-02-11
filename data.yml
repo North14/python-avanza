@@ -1,10 +1,10 @@
-options:
+options: # HTML classes the script will search for, examples: buyPrice, sellPrice, highestPrice
   - buyPrice
   - sellPrice
   - highestPrice
-stocks:
+stocks: # add the end of the link to avanza stock
   - 3873/microsoft-corp
   - 3323/apple-inc
   - 472095/alphabet-inc-class-a
-certs:
+certs: # add the end of the link to avanza cert
   - 966569/bull-msft-x5-von3

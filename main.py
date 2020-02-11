@@ -14,7 +14,7 @@ def parse_class(r_html, options):
     soup = bs4.BeautifulSoup(r_html, features='lxml')
     class_text = []
 
-    shortcode = soup.find('dd').get_text()
+    shortcode = soup.find('title').get_text().split('-', 1)[0]
     class_text.append(shortcode)
 
     for option in options:
