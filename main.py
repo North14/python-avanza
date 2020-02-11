@@ -48,7 +48,7 @@ def open_yml():
 def main():
     data = list_urls(open_yml())
     tabulate_list = [['shortcode', 'paidPrice', 'profit']] 
-    for option in data['options']:
+    for option in data['options'][::-1]:
         tabulate_list[0].insert(1, option)
     for types in ('stocks', 'certs'):
         for x in data[types]:
