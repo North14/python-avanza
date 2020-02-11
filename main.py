@@ -55,7 +55,7 @@ def main():
             if ('price' in x) and ('amount' in x):
                 list1 = parse_class(request(x['url']), data['options'])
                 totalprice = round(x['price'] * x['amount'], 2)
-                profit = round(((float(list1[3].replace(',', '.')) * x['amount']) - totalprice), 2)
+                profit = round(((float(list1[2].replace(',', '.')) * x['amount']) - totalprice), 2)
                 list1.extend([totalprice, profit])
             else:
                 list1 = parse_class(request(x['url']), data['options'])
