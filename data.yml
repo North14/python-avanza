@@ -2,9 +2,17 @@ options: # HTML classes the script will search for, examples: buyPrice, sellPric
   - buyPrice
   - sellPrice
   - highestPrice
+  - lowestPrice
+  - change
 stocks: # add the end of the link to avanza stock
-  - 3873/microsoft-corp
-  - 3323/apple-inc
-  - 472095/alphabet-inc-class-a
+  - name: 3873/microsoft-corp
+  - name: 3323/apple-inc
+  - name: 472095/alphabet-inc-class-a
+  - name: 238449/tesla-inc
+  - name: 1013103/virgin-galactic-holdings-inc
+  - name: 529720/advanced-micro-devices-inc
+  - name: 3658/intel-corp
 certs: # add the end of the link to avanza cert
-  - 966569/bull-msft-x5-von3
+  - name: 966569/bull-msft-x5-von3
+    price: 387.11
+    amount: 5
